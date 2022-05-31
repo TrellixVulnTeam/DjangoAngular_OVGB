@@ -3,10 +3,12 @@ import { RouterModule, Routes } from '@angular/router';
 
 import {EmployeeComponent} from './employee/employee.component'
 import {DepartmentComponent} from './department/department.component'
+import {CarouselComponent} from './carousel/carousel.component'
 
 const routes: Routes = [
   {path: 'employee',component: EmployeeComponent},
   {path: 'department',component: DepartmentComponent},
+  {path: 'carousel',component: CarouselComponent},
 ];
 
 @NgModule({
