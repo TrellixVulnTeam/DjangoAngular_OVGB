@@ -1,0 +1,2 @@
+In pyenv.cfg change home variable to the python39 location (not to the shortcut!)
+In activate change VIRTUAL_ENV to the path of the venv directory

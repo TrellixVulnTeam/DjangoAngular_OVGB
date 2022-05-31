@@ -32,7 +32,7 @@ export class SharedService {
   }
 
 
-  getEmpList(req: Request): Observable<any[]>{
+  getEmpList(): Observable<any[]>{
     return this.http.get<any[]>(this.APIUrl + 'employee/');
   }
   
