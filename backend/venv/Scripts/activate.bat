@@ -9,7 +9,7 @@ if defined _OLD_CODEPAGE (
 )
 
 
-set VIRTUAL_ENV=C:\Users\MSI\fullstack\DjangoAngular\backend\venv
+set VIRTUAL_ENV=C:\Users\kamil\fullstack\DjangoAngular\backend\venv
 
 if not defined PROMPT set PROMPT=$P$G
 

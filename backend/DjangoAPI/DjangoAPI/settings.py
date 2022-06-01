@@ -43,8 +43,10 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'corsheaders',
     'EmployeeApp.apps.EmployeeappConfig',
+    'UniversitiesAPI.apps.UniversitiesapiConfig',
     'rest_framework',
 ]
+
 CORS_ORIGIN_ALLOW_ALL = True
 
 MIDDLEWARE = [
