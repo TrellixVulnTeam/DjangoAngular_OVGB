@@ -16,6 +16,8 @@ import {HttpClientModule } from '@angular/common/http';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { CarouselComponent } from './carousel/carousel.component';
+import { UniversitygalleryComponent } from './universitygallery/universitygallery.component';
+import { CountryComponent } from './universitygallery/country/country.component';
 
 
 @NgModule({
@@ -27,7 +29,9 @@ import { CarouselComponent } from './carousel/carousel.component';
     EmployeeComponent,
     ShowEmpComponent,
     AddEditEmpComponent,
-    CarouselComponent
+    CarouselComponent,
+    UniversitygalleryComponent,
+    CountryComponent
   ],
   imports: [
     BrowserModule,
