@@ -18,7 +18,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { CarouselComponent } from './carousel/carousel.component';
 import { UniversitygalleryComponent } from './universitygallery/universitygallery.component';
 import { CountryComponent } from './universitygallery/country/country.component';
-import { RegionComponent } from './uniwersitygallery/region/region.component';
+import { RegionComponent } from './universitygallery/region/region.component';
 
 
 @NgModule({
