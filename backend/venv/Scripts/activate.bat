@@ -8,8 +8,9 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
-
+@REM set VIRTUAL_ENV=C:\Users\Lenovo\Desktop\DjangoAngularProject\DjangoAngular\backend\venv
 set VIRTUAL_ENV=C:\Users\kamil\fullstack\DjangoAngular\backend\venv
+
 
 if not defined PROMPT set PROMPT=$P$G
 
