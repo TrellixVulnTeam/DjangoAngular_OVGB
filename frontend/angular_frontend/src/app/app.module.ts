@@ -18,6 +18,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { CarouselComponent } from './carousel/carousel.component';
 import { UniversitygalleryComponent } from './universitygallery/universitygallery.component';
 import { CountryComponent } from './universitygallery/country/country.component';
+import { RegionComponent } from './uniwersitygallery/region/region.component';
 
 
 @NgModule({
@@ -31,7 +32,8 @@ import { CountryComponent } from './universitygallery/country/country.component'
     AddEditEmpComponent,
     CarouselComponent,
     UniversitygalleryComponent,
-    CountryComponent
+    CountryComponent,
+    RegionComponent
   ],
   imports: [
     BrowserModule,
