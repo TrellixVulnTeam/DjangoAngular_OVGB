@@ -1,3 +1,4 @@
+/.angular/cache/
 # Django #
 *.log
 *.pot
@@ -157,9 +158,6 @@ GitHub.sublime-settings
 
 
 # misc
-/.angular/cache/**
-/angular-webpack/**
-/babel-webpack/**
 /.sass-cache
 /connect.lock
 /coverage
