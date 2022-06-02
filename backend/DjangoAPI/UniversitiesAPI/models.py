@@ -8,16 +8,16 @@ class Country(models.Model):
 class Region(models.Model):
     RegionId = models.AutoField(primary_key=True)
     RegionName = models.CharField(max_length=150)
-    CountryId_FK = models.ForeignKey(Country,on_delete=models.CASCADE)
+    CountryId = models.ForeignKey(Country,on_delete=models.CASCADE)
 
 
 class City(models.Model):
     CityId = models.AutoField(primary_key=True)
     CityName = models.CharField(max_length=150)
-    RegionId_FK = models.ForeignKey(Region,on_delete=models.CASCADE)
+    RegionId = models.ForeignKey(Region,on_delete=models.CASCADE)
 
 
-class Universities(models.Model):
+class University(models.Model):
     UniversityId = models.AutoField(primary_key=True)
     UniversityName = models.CharField(max_length=150)
-    CityId_FK = models.ForeignKey(City,on_delete=models.CASCADE)
+    CityId = models.ForeignKey(City,on_delete=models.CASCADE)
