@@ -157,7 +157,9 @@ GitHub.sublime-settings
 
 
 # misc
-/.angular/cache
+/.angular/cache/**
+/angular-webpack/**
+/babel-webpack/**
 /.sass-cache
 /connect.lock
 /coverage
