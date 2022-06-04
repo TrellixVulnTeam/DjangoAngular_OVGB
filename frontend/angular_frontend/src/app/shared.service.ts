@@ -51,4 +51,9 @@ export class SharedService {
   UploadPhoto(val:any){
     return this.http.post(this.APIUrl+'SaveFile',val)
   }
+
+  getCountryList(): Observable<any[]>{
+    return this.http.get<any[]>(this.APIUrl+'countries/')
+  }
+
 }
