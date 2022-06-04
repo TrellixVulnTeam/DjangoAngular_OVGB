@@ -19,6 +19,7 @@ import { CarouselComponent } from './carousel/carousel.component';
 import { UniversitygalleryComponent } from './universitygallery/universitygallery.component';
 import { CountryComponent } from './universitygallery/country/country.component';
 import { RegionComponent } from './universitygallery/region/region.component';
+import { ShowCountryComponent } from './universitygallery/country/show-country/show-country.component';
 
 
 @NgModule({
@@ -33,7 +34,8 @@ import { RegionComponent } from './universitygallery/region/region.component';
     CarouselComponent,
     UniversitygalleryComponent,
     CountryComponent,
-    RegionComponent
+    RegionComponent,
+    ShowCountryComponent
   ],
   imports: [
     BrowserModule,
